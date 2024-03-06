@@ -1,0 +1,2 @@
+﻿SELECT ProductName, CategoriesName FROM Products
+FULL OUTER JOIN Categories ON Products.CategoryID=Categories.CategoryID;
